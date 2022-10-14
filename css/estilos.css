@@ -1,0 +1,380 @@
+/* estilo general sin clase ni identificador */
+
+body {
+    background-color: black;
+    background-image: url("../imagenes/goku.jpg");
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #ffffff;
+    text-shadow: 0 0 20px #0088ff, 0 0 20px #0088ff, 0 0 20px #0088ff;
+    font-size: 1cm;
+    margin: 0px;
+}
+
+/* estilos del encabezado */
+
+#encabezado {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 55vh;
+    font-size: 16px;
+    background-image: url("../imagenes/banner\ pagina\ yo.jpg");
+    background-position: center center;
+    border-bottom: #ffffff solid 3.5px;
+}
+
+/*  estilo de la barra de navegacion*/
+
+#barraNav {
+    background-color: black;
+    border: solid 3.5px #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    padding: 25px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 20px #0088ff, 0 0 20px #0088ff, 0 0 20px #0088ff;
+}
+
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    animation: parpadear 0.5s infinite backwards steps(10);
+}
+
+@keyframes parpadear {
+    to {
+        color: black;
+    }
+}
+
+aside {
+    text-align: center;
+    border: #ffffff solid 3.5px;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 27%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    padding: 10px;
+    background-color: black;
+}
+
+aside p {
+    text-align: center;
+}
+
+#redes .iconos {
+    margin-top: 50px;
+    width: 100px;
+    border: white 3px solid;
+    border-radius: 100px;
+    box-shadow: 0 0 20px black, 0 0 20px black, 0 0 20px black;
+}
+
+#seccionMetas {
+    font-size: 20px;
+    border: white solid 3.5px;
+    border-radius: 15px;
+    width: 99%;
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+#seccion {
+    font-size: 20px;
+}
+main {
+    text-align: center;
+    border: #ffffff solid 3.5px;
+    border-radius: 15px;
+    float: left;
+    width: 99%;
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: none;
+    box-shadow: 0 10px 5px black;
+    background-color: black;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+#bio {
+    width: 300px;
+    border: 3.5px solid white;
+    border-radius: 15px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#logoC {
+    width: 300px;
+    border: 3.5px solid white;
+    border-radius: 15px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#bioletter {
+    font-size: 25px;
+    text-align: justify;
+    padding: 5px;
+}
+
+.imagenes {
+    width: 250px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#seccion ul {
+    display: flex;
+    text-shadow: none;
+    list-style-type: lower-latin;
+}
+
+li {
+    margin-left: 19%;
+}
+
+#seccion h1 {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    text-shadow: none;
+    box-shadow: 0 10px 5px black;
+}
+
+img {
+    width: 300px;
+    border: 3.5px solid white;
+    border-radius: 15px;
+}
+
+#imagenesDiv img {
+    float: left;
+    width: 250px;
+}
+
+#imagenesDiv {
+    width: 300px;
+}
+
+video {
+    width: 300px;
+    
+}
+
+#videoX {
+    height: 400px;
+}
+
+.iconos {
+    width: 50px;
+    display: flex;
+    border: #ffffff solid 3.5px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px #0088ff, 0 0 20px #0088ff;
+}
+
+#predes {
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3 {
+    text-align: center;
+    background-color: rgb(255, 60, 60);
+    border: solid white 3.5px;
+    border-radius: 10px;
+    text-shadow: none;
+    font-size: 30px;
+    
+}
+#tabla {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    color: white;
+    text-shadow: none;
+    border: solid white 3.5px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+table th {
+    border-radius: 5px;
+    background-color: #036fcd;
+    text-shadow:0 0 10px rgb(0, 0, 0),0 0 10px rgb(0, 0, 0) ;
+}
+
+table td {
+    background-color: #00213d;
+    border-radius: 5px;
+}
+/* pie de pagina */
+footer {
+    overflow: hidden;
+    background-color: rgb(0, 41, 88);
+    width: 98%;
+    border-radius: 10px;
+    border: solid 3.5px #ffffff;
+    display: flex;
+    padding: 5px;
+}
+
+#barraNav a {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.seccion1 {
+    margin-left: 100px;
+}
+
+.seccion1 h1 {
+    font-size: 30px;
+    margin: 0px;
+
+}
+
+.seccion1 a {
+    font-size: 25px;
+}
+
+address {
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+small {
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+@media(max-width:1130px) {
+
+    #barraNav {
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    main {
+        font-size: 25px;
+        float: left;
+        width: 98%;
+        background-color: rgba(0, 0, 0, 0.842);
+    }
+
+    aside {
+        width: 94%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 1px;
+        font-size: 15px;
+        display: flex;
+    }
+
+    #redes .iconos {
+        margin-top: 10px;
+        width: 50px;
+        border: white 3px solid;
+    }
+
+    section img {
+        width: 160px;
+    }
+
+    #misFav p {
+        font-size: 25px;
+        margin-top: 5px;
+    }
+
+    footer {
+        width: 96%;
+        font-size: 15px;
+    }
+
+    .seccion1 h1 {
+        font-size: 18px;
+        margin: 0px;
+
+    }
+
+    .imagenes {
+        width: 150px;
+    }
+
+    #imagenesDiv img {
+        width: 150px;
+        margin-top: 30px;
+    }
+
+    .seccion1 a {
+        font-size: 13px;
+    }
+
+    .seccion1 h1 {
+        font-size: 18px;
+        margin: 0px;
+
+    }
+
+    address {
+        font-size: 20px;
+    }
+
+    small {
+
+        font-size: 15px;
+    }
+
+    .seccion1 {
+        margin-left: 50px;
+    }
+
+    #bioletter {
+        font-size: 15px;
+        text-align: justify;
+        padding: 2.5px;
+    }
+
+    #bio {
+        width: 200px;
+    }
+
+    .iconos {
+        width: 30px;
+        display: inline-block;
+        margin: 7px;
+    }
+
+    #logoC {
+        width: 100px;
+    }
+
+    #predes {
+        font-size: 15px;
+
+    }
+
+
+}

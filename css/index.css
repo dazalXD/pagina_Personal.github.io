@@ -1,0 +1,240 @@
+/* estilo general sin clase ni identificador */
+
+body {
+    background-color: black;
+    background-image: url("../imagenes/goku.jpg");
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #ffffff;
+    text-shadow: 0 0 20px #008aff, 0 0 20px #008aff, 0 0 20px #008aff;
+    font-size: 1cm;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* estilos del encabezado */
+
+#encabezado {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 55vh;
+    font-size: 16px;
+    background-image: url("../imagenes/banner\ pagina\ yo.jpg");
+    background-position: center center;
+    border-bottom: #ffffff solid 3.5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#barraNav {
+    background-color: rgba(0, 0, 0, 0.882);
+    border: solid 3.5px #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    padding: 25px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#barraNav a {
+    padding: 10px;
+}
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    animation: parpadear 0.5s infinite backwards steps(10);
+}
+
+@keyframes parpadear {
+    to {
+        color: black;
+    }
+}
+
+/* 
+
+--------estilos contenido de la pagina 
+
+*/
+
+main {
+    text-align: center;
+    border: #ffffff solid 3.5px;
+    border-radius: 15px;
+    float: left;
+    width: 70%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+section img {
+    width: 300px;
+    border: white 3.5px solid;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+main section #temaF {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    text-shadow: none;
+    box-shadow: 0 10px 5px black;
+}
+
+#misFav p {
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: none;
+    box-shadow: 0 10px 5px black;
+    background-color: black;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+/* 
+
+--------estilos redes sociales  
+
+*/
+
+aside {
+    text-align: center;
+    border: #ffffff solid 3.5px;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 27%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    padding: 10px;
+    background-color: black;
+}
+
+#redes .iconos {
+    margin-top: 50px;
+    width: 100px;
+    border: white 3px solid;
+    border-radius: 100px;
+    box-shadow: 0 0 20px black, 0 0 20px black, 0 0 20px black;
+}
+
+footer {
+    overflow: hidden;
+    background-color: rgba(9, 49, 120, 0.524);
+    width: 98%;
+    border-radius: 10px;
+    border: solid 3.5px #ffffff;
+    display: flex;
+    padding: 5px;
+}
+
+.seccion1 {
+    margin-left: 100px;
+}
+
+.seccion1 h1 {
+    font-size: 30px;
+    margin: 0px;
+
+}
+
+.seccion1 a {
+    font-size: 25px;
+}
+
+address {
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+small {
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+@media(max-width:1000px) {
+
+    #barraNav {
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    main {
+        width: 98%;
+        background-color: rgba(0, 0, 0, 0.842);
+    }
+
+
+    aside {
+        text-align: center;
+        width: 96%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 1px;
+        font-size: 15px;
+        display: flex;
+    }
+
+    #redes .iconos {
+        margin-top: 10px;
+        width: 50px;
+        border: white 3px solid;
+    }
+
+    section img {
+        width: 260px;
+    }
+
+    #misFav p {
+        font-size: 35px;
+        margin-top: 5px;
+        text-align: left;
+    }
+
+    footer {
+        text-align: center;
+        width: 97%;
+        font-size: 15px;
+    }
+
+    .seccion1 a {
+        font-size: 13px;
+    }
+
+    .seccion1 h1 {
+        font-size: 18px;
+        margin: 0px;
+
+    }
+
+    address {
+        font-size: 20px;
+    }
+
+    small {
+
+        font-size: 15px;
+    }
+
+    .seccion1 {
+        margin-left: 50px;
+    }
+
+    #encabezado {
+        height: 30vh;
+    }
+
+    
+#barraNav a {
+    padding: 5px;
+}
+
+}
